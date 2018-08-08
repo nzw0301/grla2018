@@ -1,4 +1,4 @@
-This repository provides the source codes used in [Node Centralities and Classification Performance for Characterizing Node Embedding Algorithms](https://openreview.net/forum?id=Sk9QRnCIM) submitted to ICLR 2018 workshop track.
+This repository provides the source codes used in _Analyzing Centralities of Embedded Nodes_ submitted to GRLA 2018.
 
 ## Experimental environment
 
@@ -8,8 +8,8 @@ For `bash/zsh` users:
 
 ```bash
 $ docker pull nocotan/graph-tool-plus
-$ docker run -i -p 8888:8888 -v $(pwd):/iclrw -w="/iclrw" -t nocotan/graph-tool-plus /bin/bash
-$ export JOBLIB_TEMP_FOLDER="/iclrw"
+$ docker run -i -p 8888:8888 -v $(pwd):/grla -w="/grla" -t nocotan/graph-tool-plus /bin/bash
+$ export JOBLIB_TEMP_FOLDER="/grla"
 $ jupyter notebook --ip=0.0.0.0 --allow-root
 ```
 
@@ -17,8 +17,8 @@ For `fish` users:
 
 ```fish
 $ docker pull nocotan/graph-tool-plus
-$ docker run -i -p 8888:8888 -v (pwd):/iclrw -w="/iclrw" -t nocotan/graph-tool-plus /bin/bash
-$ export JOBLIB_TEMP_FOLDER="/iclrw"
+$ docker run -i -p 8888:8888 -v (pwd):/grla -w="/grla" -t nocotan/graph-tool-plus /bin/bash
+$ export JOBLIB_TEMP_FOLDER="/grla"
 $ jupyter notebook --ip=0.0.0.0 --allow-root
 ```
 
