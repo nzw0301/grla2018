@@ -1,4 +1,4 @@
-This repository provides the source codes used in _Analyzing Centralities of Embedded Nodes_ submitted to GRLA 2018.
+This repository provides the source codes used in _Analyzing Centralities of Embedded Nodes_ accepted by [ICDM workshop on GRLA 2018](vincentz.cc/grla2018/).
 
 ## Experimental environment
 
